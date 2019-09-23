@@ -1,69 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <!--StyleSheet CSS-->
-    <link rel="stylesheet" href="stylesheets/style.css">
-    <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!--Bootstrap Javascript-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--StyleSheet CSS-->
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--Bootstrap Javascript-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
+
 <body>
-<!--Jumotron-->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Welcome</h1>
-            <div class="vertical-nav">
-                <a href="#" class="lead">Portfolio</a>
-                <a href="#" class="lead">About Me</a>
-                <a href="#" class="lead">Blog Posts</a>
-            </div><!--Navbar div-->
-        </div><!--container div-->
-      </div><!--JumboTron Div-->
+  <!--Jumotron-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h3 id="part-1" class="display-4">Welcome</h3>
+      <div class="vertical-nav">
+        <a href="portfolio.html" class="lead">Portfolio</a>
+        <a href="about-me.html" class="lead">About Me</a>
+        <!-- <a href="#" class="lead">Blog Posts</a> For future posts on Dev Community -->
+       
+      </div> <!--Navbar div-->
+    </div>
+    <div class="image-container">
+      <img src="img/me.jpg" id="me-img" alt="Me a short nerd">
+      <h4 class="name-title">Ashley Clarke</h4>
+      <!--Resume Download-->
+      <a href="img/Resume.pdf" id="homepage-resume" target="_blank" download>Resume</a>
+  </div><!--container div-->
+  </div>  <!--JumboTron Div-->
+<!---Skills and tools-->
+  <div class="skills">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h3 class="proficiencies-title">Skills & Tools</h4>
+          <div class="code-languages">
+            <h5>Languages</h5>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Javascript</p>
+          </div>
 
-    <div class="skills">     
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h3 class="proficiencies-title">Skills & Tools</h4>
-                            <div class="code-languages">
-                                    <h5>Languages</h5>
-                                    <p>HTML</p>
-                                    <p>CSS</p>
-                                    <p>Javascript</p>
-                                </div>
-                            
-        <div class="libary">
+          <div class="libary">
             <h5>Libraries</h5>
-                <p>jQuery</p>
-                <p>Moment.js</p>
-            </div>
-        
-                <div class="enviroment">
-                    <h5>Enviroments</h5>
-                        <p>Node.js</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-<!--Footer-->
-<footer class="footer-bar"> 
-        <i class="fa fa-github"></i>
-        <i class="fa fa-linkedin"></i>
-</footer>
+            <p>jQuery</p>
+            <p>Moment.js</p>
+          </div>
 
+          <div class="enviroment">
+            <h5>Enviroments</h5>
+            <p>Node.js</p>
+          </div>
+      </div>
+    </div>
+  </div>
+  </div>
 
-
-    <!--jQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!--Scripts Javascript-->
-    <script src="scripts/script.js"></script>
+  <!--jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!--Scripts Javascript-->
+  <script src="scripts/script.js"></script>
 </body>
+
+  <!--Footer-->
+  <footer class="footer-bar">
+    <h2 id="first-name">Ashley</h2>
+    <a href="https://www.linkedin.com/in/ashley-clarke-113557124/" class="fa fa-linkedin" id="footer-icon" target="_blank"></a>
+    <a href="https://github.com/crashley1992" class="fa fa-github" id="footer-icon" target="_blank"></a>
+    <a href="img/Resume.pdf" class="fa fa-file" id="footer-icon" target="_blank" download></a>
+    <h2 id="last-name">Clarke</h2>
+  </footer>
 </html>

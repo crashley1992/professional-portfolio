@@ -4,108 +4,295 @@
     background-size: cover;
     min-height: 500px;
     background-position: left;
-}
-/*Styling for navbar*/
-.vertical-nav > a  {
+  }
+
+  /*Styling for navbar*/
+  .vertical-nav>a {
     color: black;
     display: block !important;
     clear: both !important;
     float: right;
     font-size: 1.5em;
-}
+  }
 
-.vertical-nav > a:hover  {
+  .navbar-custom {
+    background-color: #EBC7E2 !important;
+  }
+  .vertical-nav > a:hover {
     color: white;
     background: #EBC7E2;
     text-decoration: none;
-}
+  }
 
-/*Styling for skills and tools section*/
-.skills {
+  /*Styling for skills and tools section*/
+  .skills {
     text-align: center;
-}
+  }
 
-.card {
+  .card {
     margin-left: auto;
     margin-right: auto;
-}
+  }
 
-h5 {
+  h5 {
     border-bottom: black solid 1px;
     width: 125px;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  #first-name {
+    display: inline-block;
+  }
+
+  #last-name {
+    display: inline-block;
+    margin-left: 1%;
+  }
+
+/*Styling on mobile devices for image*/
+.image-container {
+  width: 200px;
+  height: 200px;
+  margin-top: 2%;
+  margin-left: 5%;
 }
 
-/*Styling for enviroment list under Skills and Tools*/
-.enviroment {
+#me-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  /* border: solid black 1px; */
+  box-shadow: 2px;
+}
+
+#homepage-resume {
+  margin-left: 25% !important;
+}
+
+  /*Styling for enviroment list under Skills and Tools*/
+  .enviroment {
     margin-bottom: 35%;
-}
+  }
 
-
-/*Styling for footer that follows with scroll*/
-.footer-bar {
+  /*Styling for footer that follows with scroll*/
+  .footer-bar {
     text-align: center;
     border: black 1px solid;
     width: 100%;
     height: 80px;
     left: 0;
     bottom: 0;
-    position:fixed;
-    background-color:#EBC7E2;
-}
+    position: fixed;
+    background-color: #e9ecef;
+  }
 
-.fa {
-    font-size: 35px;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding-top: 5px;
-}
+  #footer-icon {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
 
-/*Medium Screen size*/
-@media (min-width: 768px and max-width: 992px) {
-    .vertical-nav > a  {
-        font-size: 2.5em;
+  #footer-icon:hover {
+    color: blue;
+    border: solid black 1px;
+    border-radius: 25%;
+    padding: 5px 5px 5px 5px;
+  }
+
+  footer > a {
+    text-decoration: none !important;
+  }
+
+  /*Medium Screen size*/
+  @media (min-width: 767.98px) {
+    .vertical-nav > a {
+      font-size: 2.0em;
     }
-}
 
-/*Large Screen*/
+    .image-container {
+      width: 200px;
+      height: 200px;
+      float: right;
+      clear: both;
+      margin-top: 2%;
+      margin-right: 3%;
+    }
 
-@media (min-width: 992px) {
-   
+    #me-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      /* border: solid black 1px; */
+      box-shadow: 2px;
+    }
+
+    .name-title {
+      margin-left: 15%;
+      margin-bottom: 15%;
+    }
+
+    #homepage-resume {
+      margin-left: 35% !important;
+    }
+
+  }
+
+  /*Large Screen*/
+  @media (min-width: 992px) {
     .jumbotron-fluid {
-        min-height: 850px;
-        background-position: bottom;
-    }
-    .footer-bar {
-        text-align: center;
-        border: black 2px solid;
-        width: 100%;
-        left: 0;
-        bottom: 0;
-        position:fixed; 
-        background-color: lightgrey;
+      min-height: 850px;
+      background-position: bottom;
     }
 
-    .vertical-nav > a  {
-        display: block !important;
-        clear: both !important;
-        float: right;
-        font-size: 3em;
+    .vertical-nav > a {
+      display: block !important;
+      clear: both !important;
+      float: right;
+      font-size: 3em;
+    }
+
+    .image-container {
+      width: 200px;
+      height: 200px;
+      float: right;
+      clear: both;
+      margin-top: 2%;
+      margin-right: 10%;
+    }
+
+    #me-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      /* border: solid black 1px; */
+      box-shadow: 2px;
+    }
+
+    .name-title {
+      margin-left: 15%;
+    }
+
+    #homepage-resume {
+      margin-left: 40% !important;
     }
 
     .skills {
-        margin-bottom: 5%;
+      margin-bottom: 5%;
     }
 
     .code-languages {
-        display: inline-block;
+      display: inline-block;
     }
 
     h5 {
-        width: 150px;
+      width: 150px;
     }
 
+    .footer-bar {
+      text-align: center;
+      border: black 2px solid;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      position: fixed;
+      background-color: #e9ecef;
+    }
+  }
 
+
+  /*------------------Portfolio Styling-----------------------*/
+  .project-gallery {
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 25%;
+  }
+
+  @media (min-width: 992px) {
+    .img-fluid {
+      height: 200px !important;
+    }
+
+  }
+
+  /*----------About Me------------------*/
+.display-container  {
+  margin-bottom: 50%;
 }
 
+  .about-me {
+    margin-top: 5%;
+    margin-bottom: 20%;
+  }
+
+  .about-topic {
+    width: 75%;
+    text-align: center;
+  }
+
+  .large-screen-display {
+    display: none;
+  }
+
+ #me-image-card {
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 4%;
+  }
+
+  /*Large screen has a different display than mobile*/
+  @media (min-width: 992px) {
+
+.display-container {
+  display: none;
+}
+   
+.large-screen-display {
+  display: block;
+  text-align: center;
+  margin-top: 3%;
+}
+
+#lg-screen-me {
+  float: left;
+  clear: both;
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin-top: 5%;
+  margin-left: 5%;
+  border-radius: 50%;
+}
+
+.about-text1 {
+  margin-bottom: 5%;
+  text-align: center;
+  margin-right: 15%;
+}
+
+.about-text2 {
+  margin-bottom: 5%;
+  margin-right: 15%;
+  text-align: center;
+}
+
+h5 {
+  border-bottom: none;
+}
+
+#icon {
+  margin-bottom: 1%;
+  margin-right: 15%;
+  font-size: 45px;
+  text-align: center;
+}
+
+
+
+  }
