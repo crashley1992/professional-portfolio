@@ -6,6 +6,10 @@
     background-position: left;
   }
 
+  #part-1 {
+    margin-top: 2%;
+  }
+
   /*Styling for navbar*/
   .vertical-nav>a {
     color: black;
@@ -32,6 +36,7 @@
   .card {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 25%;
   }
 
   h5 {
@@ -68,12 +73,9 @@
 
 #homepage-resume {
   margin-left: 25% !important;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5%;
 }
-
-  /*Styling for enviroment list under Skills and Tools*/
-  .enviroment {
-    margin-bottom: 35%;
-  }
 
   /*Styling for footer that follows with scroll*/
   .footer-bar {
@@ -97,7 +99,7 @@
   }
 
   #footer-icon:hover {
-    color: blue;
+    color: palevioletred;
     border: solid black 1px;
     border-radius: 25%;
     padding: 5px 5px 5px 5px;
